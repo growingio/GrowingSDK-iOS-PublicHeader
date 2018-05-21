@@ -1,2 +1,2 @@
-# GrowingPublicHeader-iOS
+# GrowingSDK-iOS-PublicHeader
 
