@@ -39,7 +39,7 @@ THE SOFTWARE.
 
   s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-PublicHeader.git', :branch => 'develop'}
   s.source_files  = 'PublicHeader/*.{h}'
-  s.public_header_files = 'PublicHeader/Growing.h'
+  s.public_header_files = 'PublicHeader/Growing.h', 'PublicHeader/module.modulemap'
   s.preserve_paths = 'PublicHeader/VERSION', 'PublicHeader/module.modulemap'
   s.prefix_header_file = false
   
