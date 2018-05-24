@@ -35,7 +35,12 @@ THE SOFTWARE.
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-PublicHeader.git', :branch => 'develop', :tag => 'test_v_0.1'}
-  s.source_files  = "PublicHeader/*.{h,modulemap}"
+  s.requires_arc = true
+
+  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-PublicHeader.git', :branch => 'develop'}
+  s.source_files  = 'PublicHeader/*.{h}'
+  s.public_header_files = 'PublicHeader/Growing.h'
+  s.preserve_paths = 'PublicHeader/VERSION', 'PublicHeader/module.modulemap'
+  s.prefix_header_file = false
   
 end
