@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Pod::Spec.new do |s|
-  s.name         = "GrowingPublicHeader"
+  s.name         = "Growing"
   s.version      = "2.4.0"
   s.summary      = "GrowingIO Public Header"
 
