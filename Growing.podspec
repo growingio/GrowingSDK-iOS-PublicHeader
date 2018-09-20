@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Growing"
-  s.version      = "2.4.0"
+  s.version      = "2.5.6"
   s.summary      = "GrowingIO Public Header"
 
   s.description  = <<-DESC
@@ -37,7 +37,7 @@ THE SOFTWARE.
 
   s.requires_arc = true
 
-  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-PublicHeader.git', :branch => 'develop'}
+  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-PublicHeader.git', :tag => s.version}
   s.source_files  = 'PublicHeader/*.{h}'
   s.public_header_files = 'PublicHeader/Growing.h', 'PublicHeader/module.modulemap'
   s.preserve_paths = 'PublicHeader/VERSION', 'PublicHeader/module.modulemap'
