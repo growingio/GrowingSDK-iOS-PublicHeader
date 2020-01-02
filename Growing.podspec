@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Growing"
-  s.version      = "2.8.8"
+  s.version      = "2.8.9"
   s.summary      = "GrowingIO Public Header"
 
   s.description  = <<-DESC
@@ -33,7 +33,7 @@ THE SOFTWARE.
                      'GrowingIO' => 'support@growingio.com'
                    }
   s.platform     = :ios
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.0"
 
   s.requires_arc = true
 
