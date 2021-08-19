@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Growing"
-  s.version      = "2.9.3"
+  s.version      = "2.9.4"
   s.summary      = "GrowingIO Public Header"
 
   s.description  = <<-DESC
